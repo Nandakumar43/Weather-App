@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function SearchBar({ setWeather }) {
   const [city, setCity] = useState('');
 
-  const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+  const apiKey = "36aa67b655636ebb8ae7afe88e172e72";
 
   const getWeather = async () => {
     if (!city) return;
